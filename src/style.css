@@ -11,6 +11,9 @@ header-wrapper {
   object-fit: cover;
 }
 
+button:hover {
+  color: red;
+}
 h1 {
   font-family: oswald;
   text-transform: capitalize;
@@ -19,4 +22,7 @@ h1 {
 h2 {
   font-family: zeyada;
   text-align: right;
+}
+blockquote {
+  text-align: center;
 }
