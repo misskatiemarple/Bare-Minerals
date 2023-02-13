@@ -1,1 +1,1 @@
-let button = document.querySelector("button");
+alert("Enjoy 20% discount with code:Barefresh");

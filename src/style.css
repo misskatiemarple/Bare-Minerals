@@ -21,9 +21,6 @@ header {
   height: 300px;
   object-fit: cover;
 }
-button:hover {
-  color: red;
-}
 header h1 {
   font-family: oswald;
   text-transform: capitalize;
@@ -62,4 +59,24 @@ ul {
 }
 section {
   margin-top: 20px;
+}
+
+.icons {
+  color: black;
+}
+
+#shop {
+  color: #6c757d;
+  text-decoration: none;
+  text-align: right;
+}
+#video {
+  display: block;
+  margin: 20px auto;
+}
+h2 {
+  text-align: center;
+}
+#searchbutton {
+  margin: 10px auto;
 }
