@@ -1,28 +1,65 @@
-.wrapper,
-header-wrapper {
-  max-width: 600px;
-  padding: 100px;
-  margin: 50px;
+body {
+  max-width: 900px;
+  background-color: rgb(248, 249, 250);
+}
+header {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/750/original/Screen_Shot_2023-02-10_at_2.47.14_PM.png?1676008100");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  margin-bottom: 30px;
+  border-radius: 50px;
 }
 
+.wrapper {
+  padding: 20px;
+  margin: 10px;
+}
 .logo {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
 button:hover {
   color: red;
 }
-h1 {
+header h1 {
   font-family: oswald;
   text-transform: capitalize;
   text-align: center;
+  font-size: 64px;
+  color: antiquewhite;
 }
-h2 {
+header h2 {
   font-family: zeyada;
   text-align: right;
+  font-size: 36px;
+  color: rgb(226, 59, 115);
+  background: rgba(255, 255, 255, 0.6);
 }
 blockquote {
   text-align: center;
+  margin: 40px auto;
+}
+.small {
+  text-align: right;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.spring {
+  text-align: center;
+  font-weight: bold;
+  font-family: oswald;
+  font-size: 64px;
+  color: rgb(226, 59, 115);
+  margin-bottom: 30px;
+}
+section {
+  margin-top: 20px;
 }

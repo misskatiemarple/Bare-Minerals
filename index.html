@@ -10,49 +10,66 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Bare Minerals</title>
   </head>
 
   <body>
     <div class="wrapper">
-      <div class="navigation">
-        <span class="logo">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/752/original/62796a3b53c8a73e766a78c4.png?1676010418"
-            alt="Bare Minerals Logo"
-            width="200px"
-          />
-        </span>
-        <ul class="nav">
-          <li class="nav-item-lips">
-            <a class="nav-link active" href="#">Lips</a>
-          </li>
-          <li class="nav-item-eyes">
-            <a class="nav-link" href="#">Eyes</a>
-          </li>
-          <li class="nav-item-face">
-            <a class="nav-link" href="#">Face</a>
-          </li>
-          <li class="nav-item-home">
-            <a class="nav-link disabled" href="#">Home</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="header-wrapper">
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-10">
-            <img
-              class="header"
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/750/original/Screen_Shot_2023-02-10_at_2.47.14_PM.png?1676008100"
-              alt="Header image"
-            />
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <span class="logo">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/752/original/62796a3b53c8a73e766a78c4.png?1676010418"
+                alt="Bare Minerals Logo"
+                width="200px"
+              /> </span
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#"
+                >Face<span class="sr-only"></span
+              ></a>
+              <a class="nav-item nav-link" href="#">Eyes</a>
+              <a class="nav-item nav-link" href="#">Lips</a>
+              <a class="nav-item nav-link disabled" href="#">Home</a>
+              <nav class="navbar navbar-light bg-light"></nav>
+              <form class="form-inline">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
 
-      <h1>Live your life barefresh</h1>
-      <h2>Refresh your bare face with natural makeup</h2>
+      <header>
+        <div class="header-image"></div>
+        <h1>Live your life barefresh</h1>
+        <h2>Refresh your bare face with natural makeup</h2>
+      </header>
       <p>
         We started the clean beauty revolution when we launched our best-selling
         mineral foundation in 1995, and since then we've continued to create
@@ -65,38 +82,16 @@
 
       <blockquote>
         <strong>
-          Don't weigh yourself down with heavy makeup.
+          Don't weigh yourself down with heavy makeup
           <br />
           Join the revolution for clean, fresh and organic products
         </strong>
       </blockquote>
 
-      <h3>What makes Bare Minerals so unique?</h3>
-      <p>
-        While we're delighted that clean makeup has become more of a must-have
-        than a luxury, we're concerned about the increase of so-called organic
-        products on the market. So, to help you make informed decisions here are
-        the top things you should be looking to avoid: (and yes we can guarantee
-        that our products have none of these nasties."
-      </p>
-      <ul>
-        <li>BHA and BHT</li>
-        <li>
-          Coal tar dyes: p-phenylenediamine and colours listed as “CI” followed
-          by a five digit number.
-        </li>
-        <li>DEA-related ingredients</li>
-        <li>Dibutyl phthalate</li>
-        <li>Formaldehyde-releasing preservatives</li>
-        <li>Parabens</li>
-        <li>Parfum</li>
-        <li>PEG compounds</li>
-      </ul>
-      <h2>🌸 New Spring Range 🌸</h2>
-      <form>
-        <input type="text" placeholder="What do you want..." />
-        <input type="submit" value="search" class="button" />
-      </form>
+      <div class="spring">
+        <h1>🌸 New Spring Range🌸</h1>
+      </div>
+
       <div class="card-group">
         <div class="card">
           <img
@@ -147,11 +142,43 @@
           </div>
         </div>
       </div>
+      <section id="section">
+        <h3>What makes Bare Minerals so unique?</h3>
+        <p>
+          While we're delighted that clean makeup has become more of a
+          'must-have' than a luxury, we're concerned about the increase of
+          so-called organic products on the market. <br />
+          So, to help you make informed decisions here are the top things you
+          should avoid.
+        </p>
+        <div class="small">
+          <small
+            ><em
+              >...and yes we can guarantee that our products have none of these
+              nasties.</em
+            ></small
+          >
+        </div>
+
+        <ul>
+          <li>❌BHA and BHT</li>
+          <li>
+            ❌Coal tar dyes: p-phenylenediamine and colours listed as “CI”
+            followed by a five digit number.
+          </li>
+          <li>❌DEA-related ingredients</li>
+          <li>❌Dibutyl phthalate</li>
+          <li>❌Formaldehyde-releasing preservatives</li>
+          <li>❌Parabens</li>
+          <li>❌Parfum</li>
+          <li>❌PEG compounds</li>
+        </ul>
+      </section>
+      <footer>
+        <a href="https://github.com/misskatiemarple/Bare-Minerals"
+          >Open-sourced code </a
+        >written by Katie Marple
+      </footer>
     </div>
-    <footer>
-      <a href="https://github.com/misskatiemarple/Bare-Minerals"
-        >Open-sourced code </a
-      >written by Katie Marple
-    </footer>
   </body>
 </html>
